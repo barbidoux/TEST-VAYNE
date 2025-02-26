@@ -4,6 +4,7 @@
 -- Supabase handles user management, so we might only need a profile table if we want extra user data.
 -- If you need custom fields, create a profile table.
 
+
 CREATE TABLE profiles (
     id UUID PRIMARY KEY REFERENCES auth.users(id), -- Links to Supabase auth.users
     username VARCHAR(255) UNIQUE,
