@@ -1,14 +1,14 @@
-import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import Login from './pages/Login'
-import Register from './pages/Register'
-import Profile from './pages/Profile'
-import Accounts from './pages/Accounts'
-import Transactions from './pages/Transactions'
-import Categories from './pages/Categories'
-import Budgets from './pages/Budgets'
-import Reports from './pages/Reports'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Profile from './pages/Profile';
+import Accounts from './pages/Accounts';
+import Transactions from './pages/Transactions';
+import Categories from './pages/Categories';
+import Budgets from './pages/Budgets';
+import Reports from './pages/Reports';
 
 const App: React.FC = () => {
   return (
@@ -25,7 +25,7 @@ const App: React.FC = () => {
         <Route path="/reports" element={<Reports />} />
       </Routes>
     </Router>
-  )
-}
+  );
+};
 
-export default App
+export default App;
